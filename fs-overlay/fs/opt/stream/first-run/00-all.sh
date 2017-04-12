@@ -19,7 +19,5 @@ $BASE_DIR/40-enable-picam-rtsp-server-daemon.sh
 echo -e "\n50-install-extra-dependencies.sh..."
 $BASE_DIR/50-install-extra-dependencies.sh
 
-echo -e "\n60-install-python-dependencies.sh..."
-$BASE_DIR/60-install-python-dependencies.sh
 
 
