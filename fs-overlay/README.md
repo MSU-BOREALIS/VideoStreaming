@@ -42,5 +42,5 @@
 2. Reboot
 3. Run Stream bootstrap script (and watch for errors):
   ```
-  $ /opt/stream/first-start/00-all.sh
+  $ /opt/stream/first-run/00-all.sh
   ```
