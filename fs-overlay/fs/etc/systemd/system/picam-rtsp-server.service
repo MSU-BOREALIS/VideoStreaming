@@ -1,0 +1,9 @@
+[Unit]
+Description=PiCam RTSP Server
+
+[Service]
+User=pi
+ExecStart=/opt/stream/bin/picam-rtsp-server
+
+[Install]
+WantedBy=multi-user.target

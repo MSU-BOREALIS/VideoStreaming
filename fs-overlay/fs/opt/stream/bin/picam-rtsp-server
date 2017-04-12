@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+WIDTH=1920
+HEIGHT=1080
+BITRATE=3000000
+RTSP_PORT=8554
+
+`raspivid -w $WIDTH -h $HEIGHT -b $BITRATE -o - -t 0 -n -vf | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264`
