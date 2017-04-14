@@ -1,0 +1,9 @@
+[Unit]
+Description=Eclispe Pi HTTP Server
+
+[Service]
+User=pi
+ExecStart=/opt/stream/bin/node /opt/stream/eclipse-pi-http/eclipse-pi-http.js
+
+[Install]
+WantedBy=multi-user.target
