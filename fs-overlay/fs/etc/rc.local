@@ -17,12 +17,28 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-# Enable SSH
-if [ -e /etc/ENABLE_SSH_ON_INITIAL_BOOT ]; then
+# Initial pre-boot tasks
+if [ -e /etc/IS_PREBOOT ]; then
+  # Enable SSH
   systemctl enable ssh
   systemctl start ssh
 
-  rm /etc/ENABLE_SSH_ON_INITIAL_BOOT
+  rm /etc/IS_PREBOOT
 fi
+
+if [ -e /etc/IS_INITIAL_BOOT ]; then
+  # Reconfigure SSH
+  rm /etc/ssh/ssh_host_*
+  dpkg-reconfigure openssh-server
+  systemctl restart ssh
+
+  # Automatically resize rootfs
+  raspi-config --expand-rootfs
+
+  rm /etc/IS_INITIAL_BOOT
+
+  sudo reboot
+fi
+
 
 exit 0

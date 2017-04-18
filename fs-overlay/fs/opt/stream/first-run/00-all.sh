@@ -25,3 +25,6 @@ $BASE_DIR/40-enable-picam-rtsp-server-daemon.sh
 
 echo -e "\n50-install-extra-dependencies.sh..."
 $BASE_DIR/50-install-extra-dependencies.sh
+
+echo -e "\n99-enable-initial-boot.sh..."
+$BASE_DIR/99-enable-initial-boot.sh
