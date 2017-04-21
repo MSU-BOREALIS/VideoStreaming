@@ -5,6 +5,9 @@ BASE_DIR=/opt/stream/first-run
 echo "10-enable-picam-v4l2-module.sh..."
 $BASE_DIR/10-enable-picam-v4l2-module.sh
 
+echo -e "\n15-enable-rtc.sh..."
+$BASE_DIR/15-enable-rtc.sh
+
 echo -e "\n20-update-and-upgrade-existing-packages.sh.."
 $BASE_DIR/20-update-and-upgrade-existing-packages.sh
 

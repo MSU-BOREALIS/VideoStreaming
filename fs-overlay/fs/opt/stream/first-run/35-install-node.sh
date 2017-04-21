@@ -16,7 +16,7 @@ echo -e "\nRemoving tar..."
 rm ${BASE}.tar
 
 echo -e "\nMoving node directory to /opt..."
-mv $BASE /opt/
+sudo mv $BASE /opt/
 
 echo -e "\nSmylink node/npm to /opt/stream/bin..."
 sudo ln -s /opt/${BASE}/bin/node /opt/stream/bin/

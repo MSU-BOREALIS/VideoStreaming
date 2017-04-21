@@ -40,5 +40,7 @@ if [ -e /etc/IS_INITIAL_BOOT ]; then
   sudo reboot
 fi
 
+# Sync system clock from RTC
+hwclock -s
 
 exit 0
