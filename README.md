@@ -2,7 +2,7 @@
 
 ##  Releases
 
-### 2017-04-21
+### 2017-05-01
 * Added option for using one servo vs one
 * IP Address is statically set to `192.168.1.3`
 * Video is available at `rtsp://192.168.1.3:8554/`
