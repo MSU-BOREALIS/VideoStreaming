@@ -7,7 +7,7 @@
 * IP Address is statically set to `192.168.1.3`
 * Video is available at `rtsp://192.168.1.3:8554/`
 * Username is **pi** and password is **raspberry**
-* [Download 2017-05-01-eclipse-pi.img.gz](https://stream-eclipse-pi-images.s3.amazonaws.com/2017-05-01-eclipse-pi.img.gz) (860MB)
+* [Download 2017-05-01-eclipse-pi.img.gz](https://stream-eclipse-pi-images.s3.amazonaws.com/2017-05-01-eclipse-pi.img.gz) (859MB)
 
 ### 2017-04-21
 * Optional DS-3231 RTC support
