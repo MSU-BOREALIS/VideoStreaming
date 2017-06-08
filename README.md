@@ -2,6 +2,14 @@
 
 ##  Releases
 
+### 2017-06-07
+* Added automatic on-device recording script
+* Proper video orientation
+* IP Address is statically set to `192.168.1.3`
+* Video is available at `rtsp://192.168.1.3:8554/`
+* Username is **pi** and password is **raspberry**
+* [Download 2017-06-07-eclipse-pi.img.gz](https://stream-eclipse-pi-images.s3.amazonaws.com/2017-06-07-eclipse-pi.img.gz) (1.0GB)
+
 ### 2017-05-01
 * Added option for using one servo vs one
 * IP Address is statically set to `192.168.1.3`
