@@ -2,6 +2,13 @@
 
 ##  Releases
 
+### 2017-06-09
+* Decreased bitrate from 4.5Mbps to 3Mbps
+* IP Address is statically set to `192.168.1.3`
+* Video is available at `rtsp://192.168.1.3:8554/`
+* Username is **pi** and password is **raspberry**
+* [Download 2017-06-09-eclipse-pi.img.gz](https://stream-eclipse-pi-images.s3.amazonaws.com/2017-06-09-eclipse-pi.img.gz) (1.0GB)
+
 ### 2017-06-07
 * Added automatic on-device recording script
 * Proper video orientation
