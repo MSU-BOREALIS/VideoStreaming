@@ -15,7 +15,7 @@ def ten_second_record_subprocess():
 def ten_minute_record_os():
     timestr = time.strftime("%d%m%Y-%H%M%S")
     print timestr
-    system("/opt/stream/bin/ffmpeg -i rtsp://127.0.0.1:8554/ -vcodec copy -acodec none -f mp4 " + timestr + ".mp4 &")
+    system("/opt/stream/bin/ffmpeg -i rtsp://127.0.0.1:8554/ -vcodec copy -acodec none -f mp4 " + "/home/pi/" + timestr + ".mp4 &")
     #ffmpeg takes about 2 seconds to start recording
     #so for a 10 min chuck 2 more seconds are added.
     time.sleep(602)
