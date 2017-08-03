@@ -8,7 +8,7 @@
  * Expands files size to fit card on first run.
  * Video is available at 'rtsp://192.168.1.3:8554/'
  * Username is **pi** and password is **raspberry**
- * [Download from Box '2017-08-01.img.tar.gz'](https://app.box.com/file/205007313633)
+ * [Download from Box '2017-08-01.img.tar.gz'](https://drive.google.com/open?id=0B5kwyiE6L2h7V0U1YjZrNUY1bDg)
 
 ### 2017-06-07
 * Added automatic on-device recording script
