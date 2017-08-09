@@ -3,8 +3,7 @@
 ##  Releases
 
 ### 2017-08-01
- * Added automatic recording on startup
- 	-meaning you don't have to go into the crontab to start the process of recording in 10 minute chunks
+ * Added automatic recording on startup  (meaning you don't have to go into the crontab to start the process of recording in 10 minute chunks)
  * Will be the last release for the eclipse
  * Expands files size to fit card on first run.
  * Video is available at 'rtsp://192.168.1.3:8554/'
