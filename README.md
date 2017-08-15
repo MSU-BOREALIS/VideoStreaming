@@ -2,6 +2,17 @@
 
 ##  Releases
 
+
+### 2017-08-15
+ * Bitrate set to 2Mbps
+ * Use H264 baseline profile
+ * Use 2 second keyframes
+ * Insert PPS/SPS headers
+ * IP Address is statically set to `192.168.1.3`
+ * Video is available at `rtsp://192.168.1.3:8554/`
+ * Username is **pi** and password is **raspberry**
+ * [Download 2017-08-15-eclipse-pi.img.gz](https://stream-eclipse-pi-images.s3.amazonaws.com/2017-08-15-eclipse-pi.img.gz) (1.2GB)
+
 ### 2017-08-01
  * Added automatic recording on startup  (meaning you don't have to go into the crontab to start the process of recording in 10 minute chunks)
  * Will be the last release for the eclipse
