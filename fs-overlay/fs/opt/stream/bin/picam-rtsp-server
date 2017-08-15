@@ -5,4 +5,4 @@ HEIGHT=720
 BITRATE=2000000
 RTSP_PORT=8554
 
-`raspivid -w $WIDTH -h $HEIGHT -b $BITRATE -o - -t 0 -n -hf -vf | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264`
+`raspivid -w $WIDTH -h $HEIGHT -b $BITRATE -pf baseline -fps 24 -g 48 -o - -t 0 -n -hf -vf | cvlc stream://    /dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264`
